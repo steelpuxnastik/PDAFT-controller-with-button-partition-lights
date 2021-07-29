@@ -1,0 +1,856 @@
+(export 
+  (version D) 
+  (design 
+    (source "D:\\Google Drive\\Hatsune miku arcade controller\\DIVA_promicro\\DIVA_promicro\\DIVA_promicro.sch") 
+    (date "27.11.2019 11:56:30") 
+    (tool "Eeschema (5.1.4)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source PDAFT_BPL_PCB.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref U1) 
+      (value ProMicro) 
+      (footprint promicro:ProMicro) 
+      (libsource 
+        (lib promicro) 
+        (part ProMicro) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC18EEE)) 
+    (comp 
+      (ref U2) 
+      (value ULN2003) 
+      (footprint Package_DIP:DIP-16_W7.62mm) 
+      (datasheet http://www.ti.com/lit/ds/symlink/uln2003a.pdf) 
+      (libsource 
+        (lib Transistor_Array) 
+        (part ULN2003) 
+        (description "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC2A9BB)) 
+    (comp 
+      (ref J9) 
+      (value START_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6739D)) 
+    (comp 
+      (ref J6) 
+      (value L_Button_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC684F3)) 
+    (comp 
+      (ref J4) 
+      (value R_Button_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6A18F)) 
+    (comp 
+      (ref J11) 
+      (value TRIANGLE_LED_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6D4FD)) 
+    (comp 
+      (ref J12) 
+      (value SQUARE_LED_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6DE66)) 
+    (comp 
+      (ref J13) 
+      (value CROSS_LED_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6E965)) 
+    (comp 
+      (ref J14) 
+      (value CIRCLE_LED_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6EEBC)) 
+    (comp 
+      (ref J16) 
+      (value 12V_IN) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC75AA5)) 
+    (comp 
+      (ref J15) 
+      (value LR_LED_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC83E5F)) 
+    (comp 
+      (ref J7) 
+      (value LED_Strip_Conn_01x01) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x01) 
+        (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC8963C)) 
+    (comp 
+      (ref J8) 
+      (value I2C_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC8E8E6)) 
+    (comp 
+      (ref J10) 
+      (value PowerToCypress_Conn_01x02) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC93CE2)) 
+    (comp 
+      (ref J1) 
+      (value TRIANGLE_Conn_01x03) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6C356)) 
+    (comp 
+      (ref J2) 
+      (value CIRCLE_Conn_01x03) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6BDB9)) 
+    (comp 
+      (ref J3) 
+      (value CROSS_Conn_01x03) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6B6BA)) 
+    (comp 
+      (ref J5) 
+      (value SQUARE_Conn_01x03) 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DC6A9FA))) 
+  (libparts 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x01) 
+      (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x01)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x02) 
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x02)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x03) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Transistor_Array) 
+      (part ULN2003) 
+      (aliases 
+        (alias ULN2003A) 
+        (alias ULN2002) 
+        (alias ULN2002A) 
+        (alias ULN2004) 
+        (alias ULN2004A)) 
+      (description "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16") 
+      (docs http://www.ti.com/lit/ds/symlink/uln2003a.pdf) 
+      (footprints 
+        (fp DIP*W7.62mm*) 
+        (fp SOIC*3.9x9.9mm*P1.27mm*) 
+        (fp SSOP*4.4x5.2mm*P0.65mm*) 
+        (fp TSSOP*4.4x5mm*P0.65mm*) 
+        (fp SOIC*W*5.3x10.2mm*P1.27mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) ULN2003)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name I1) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name I2) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name I3) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name I4) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name I5) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name I6) 
+          (type input)) 
+        (pin 
+          (num 7) 
+          (name I7) 
+          (type input)) 
+        (pin 
+          (num 8) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 9) 
+          (name COM) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name O7) 
+          (type openCol)) 
+        (pin 
+          (num 11) 
+          (name O6) 
+          (type openCol)) 
+        (pin 
+          (num 12) 
+          (name O5) 
+          (type openCol)) 
+        (pin 
+          (num 13) 
+          (name O4) 
+          (type openCol)) 
+        (pin 
+          (num 14) 
+          (name O3) 
+          (type openCol)) 
+        (pin 
+          (num 15) 
+          (name O2) 
+          (type openCol)) 
+        (pin 
+          (num 16) 
+          (name O1) 
+          (type openCol)))) 
+    (libpart 
+      (lib promicro) 
+      (part ProMicro) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) ProMicro)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name TX) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name RX) 
+          (type BiDi)) 
+        (pin 
+          (num 3) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 4) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 5) 
+          (name SCL) 
+          (type BiDi)) 
+        (pin 
+          (num 6) 
+          (name SDA) 
+          (type BiDi)) 
+        (pin 
+          (num 7) 
+          (name D4) 
+          (type BiDi)) 
+        (pin 
+          (num 8) 
+          (name C6) 
+          (type BiDi)) 
+        (pin 
+          (num 9) 
+          (name D7) 
+          (type BiDi)) 
+        (pin 
+          (num 10) 
+          (name E6) 
+          (type BiDi)) 
+        (pin 
+          (num 11) 
+          (name B4) 
+          (type BiDi)) 
+        (pin 
+          (num 12) 
+          (name B5) 
+          (type BiDi)) 
+        (pin 
+          (num 13) 
+          (name B6) 
+          (type BiDi)) 
+        (pin 
+          (num 14) 
+          (name B2) 
+          (type BiDi)) 
+        (pin 
+          (num 15) 
+          (name B3) 
+          (type BiDi)) 
+        (pin 
+          (num 16) 
+          (name B1) 
+          (type BiDi)) 
+        (pin 
+          (num 17) 
+          (name F7) 
+          (type BiDi)) 
+        (pin 
+          (num 18) 
+          (name F6) 
+          (type BiDi)) 
+        (pin 
+          (num 19) 
+          (name F5) 
+          (type BiDi)) 
+        (pin 
+          (num 20) 
+          (name F4) 
+          (type BiDi)) 
+        (pin 
+          (num 21) 
+          (name VCC) 
+          (type power_in)) 
+        (pin 
+          (num 22) 
+          (name RST) 
+          (type input)) 
+        (pin 
+          (num 23) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 24) 
+          (name RAW) 
+          (type power_out))))) 
+  (libraries 
+    (library 
+      (logical Connector_Generic) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")) 
+    (library 
+      (logical Transistor_Array) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Transistor_Array.lib")) 
+    (library 
+      (logical promicro) 
+      (uri "D:/Google Drive/Hatsune miku arcade controller/DIVA_promicro/DIVA_promicro/components/ProMicroKiCad-master/promicro_library/promicro.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(J8-Pad1)") 
+      (node 
+        (ref J8) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 5))) 
+    (net 
+      (code 2) 
+      (name "Net-(J8-Pad2)") 
+      (node 
+        (ref J8) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 6))) 
+    (net 
+      (code 3) 
+      (name "Net-(J11-Pad1)") 
+      (node 
+        (ref U2) 
+        (pin 16)) 
+      (node 
+        (ref J11) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name "Net-(J11-Pad2)") 
+      (node 
+        (ref J16) 
+        (pin 2)) 
+      (node 
+        (ref J14) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 9)) 
+      (node 
+        (ref J13) 
+        (pin 2)) 
+      (node 
+        (ref J15) 
+        (pin 1)) 
+      (node 
+        (ref J12) 
+        (pin 2)) 
+      (node 
+        (ref J15) 
+        (pin 2)) 
+      (node 
+        (ref J11) 
+        (pin 2))) 
+    (net 
+      (code 5) 
+      (name "Net-(J3-Pad3)") 
+      (node 
+        (ref J3) 
+        (pin 3)) 
+      (node 
+        (ref U1) 
+        (pin 8))) 
+    (net 
+      (code 6) 
+      (name "Net-(J2-Pad3)") 
+      (node 
+        (ref U1) 
+        (pin 9)) 
+      (node 
+        (ref J2) 
+        (pin 3))) 
+    (net 
+      (code 7) 
+      (name "Net-(J1-Pad3)") 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref U1) 
+        (pin 10))) 
+    (net 
+      (code 8) 
+      (name "Net-(J4-Pad2)") 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 12))) 
+    (net 
+      (code 9) 
+      (name "Net-(U2-Pad10)") 
+      (node 
+        (ref U2) 
+        (pin 10))) 
+    (net 
+      (code 10) 
+      (name "Net-(U2-Pad11)") 
+      (node 
+        (ref U2) 
+        (pin 11))) 
+    (net 
+      (code 11) 
+      (name "Net-(U2-Pad12)") 
+      (node 
+        (ref U2) 
+        (pin 12))) 
+    (net 
+      (code 12) 
+      (name "Net-(J14-Pad1)") 
+      (node 
+        (ref U2) 
+        (pin 13)) 
+      (node 
+        (ref J14) 
+        (pin 1))) 
+    (net 
+      (code 13) 
+      (name "Net-(J13-Pad1)") 
+      (node 
+        (ref U2) 
+        (pin 14)) 
+      (node 
+        (ref J13) 
+        (pin 1))) 
+    (net 
+      (code 14) 
+      (name "Net-(J12-Pad1)") 
+      (node 
+        (ref U2) 
+        (pin 15)) 
+      (node 
+        (ref J12) 
+        (pin 1))) 
+    (net 
+      (code 15) 
+      (name "Net-(U1-Pad22)") 
+      (node 
+        (ref U1) 
+        (pin 22))) 
+    (net 
+      (code 16) 
+      (name "Net-(J5-Pad3)") 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref J5) 
+        (pin 3))) 
+    (net 
+      (code 17) 
+      (name "Net-(U1-Pad20)") 
+      (node 
+        (ref U2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 20))) 
+    (net 
+      (code 18) 
+      (name "Net-(J1-Pad2)") 
+      (node 
+        (ref J5) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref J10) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 21))) 
+    (net 
+      (code 19) 
+      (name "Net-(U1-Pad13)") 
+      (node 
+        (ref U1) 
+        (pin 13))) 
+    (net 
+      (code 20) 
+      (name "Net-(U1-Pad23)") 
+      (node 
+        (ref U1) 
+        (pin 23))) 
+    (net 
+      (code 21) 
+      (name "Net-(U1-Pad14)") 
+      (node 
+        (ref U1) 
+        (pin 14))) 
+    (net 
+      (code 22) 
+      (name "Net-(U1-Pad24)") 
+      (node 
+        (ref U1) 
+        (pin 24))) 
+    (net 
+      (code 23) 
+      (name "Net-(U1-Pad15)") 
+      (node 
+        (ref U1) 
+        (pin 15))) 
+    (net 
+      (code 24) 
+      (name "Net-(J9-Pad2)") 
+      (node 
+        (ref J9) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 16))) 
+    (net 
+      (code 25) 
+      (name "Net-(U1-Pad18)") 
+      (node 
+        (ref U1) 
+        (pin 18)) 
+      (node 
+        (ref U2) 
+        (pin 3))) 
+    (net 
+      (code 26) 
+      (name "Net-(U1-Pad19)") 
+      (node 
+        (ref U2) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 19))) 
+    (net 
+      (code 27) 
+      (name "Net-(J7-Pad1)") 
+      (node 
+        (ref J7) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 2))) 
+    (net 
+      (code 28) 
+      (name "Net-(U1-Pad17)") 
+      (node 
+        (ref U1) 
+        (pin 17)) 
+      (node 
+        (ref U2) 
+        (pin 4))) 
+    (net 
+      (code 29) 
+      (name "Net-(U2-Pad5)") 
+      (node 
+        (ref U2) 
+        (pin 5))) 
+    (net 
+      (code 30) 
+      (name "Net-(U2-Pad6)") 
+      (node 
+        (ref U2) 
+        (pin 6))) 
+    (net 
+      (code 31) 
+      (name "Net-(U2-Pad7)") 
+      (node 
+        (ref U2) 
+        (pin 7))) 
+    (net 
+      (code 32) 
+      (name "Net-(U1-Pad1)") 
+      (node 
+        (ref U1) 
+        (pin 1))) 
+    (net 
+      (code 33) 
+      (name "Net-(J1-Pad1)") 
+      (node 
+        (ref U2) 
+        (pin 8)) 
+      (node 
+        (ref J9) 
+        (pin 1)) 
+      (node 
+        (ref J6) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref J10) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref U1) 
+        (pin 3)) 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref J5) 
+        (pin 1)) 
+      (node 
+        (ref J16) 
+        (pin 1))) 
+    (net 
+      (code 34) 
+      (name "Net-(J6-Pad2)") 
+      (node 
+        (ref U1) 
+        (pin 11)) 
+      (node 
+        (ref J6) 
+        (pin 2)))))

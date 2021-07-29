@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "promicro")(type "Legacy")(uri "D:/Google Drive/Hatsune miku arcade controller/DIVA_promicro/DIVA_promicro/components/ProMicroKiCad-master/promicro_library/promicro.lib")(options "")(descr ""))
+  (lib (name "DIVA_promicro-rescue")(type "Legacy")(uri "${KIPRJMOD}/PDAFT_BPL_PCB-rescue.lib")(options "")(descr ""))
+)

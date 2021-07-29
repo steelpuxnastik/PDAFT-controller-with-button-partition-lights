@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "promicro")(type "KiCad")(uri "${KIPRJMOD}/components/ProMicroKiCad-master/promicro.pretty")(options "")(descr ""))
+  (lib (name "projectdivalogo")(type "KiCad")(uri "${KIPRJMOD}/logos")(options "")(descr ""))
+  (lib (name "logos")(type "KiCad")(uri "${KIPRJMOD}/logos")(options "")(descr ""))
+  (lib (name "lm2596dcdc")(type "KiCad")(uri "${KIPRJMOD}/lm2596dcdc.pretty")(options "")(descr ""))
+)
