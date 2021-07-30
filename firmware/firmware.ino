@@ -73,8 +73,10 @@ void loop(void) {
   if(Serial.available()){
       inData[iteration] = Serial.read();
       iteration++;
-      if(iteration>2) {Update();}
-      if(inData[0] != Sync) {Clear();}
+      if(iteration>2) 
+        Update();
+      if(inData[0] != Sync) 
+        Clear();
   }
 }
 
@@ -87,48 +89,25 @@ unsigned char readDirectlyConnectedButtons(int *pin_table, unsigned char pin_log
 }
 
 void addHIDreportFromTable(unsigned char serial_data_byte, unsigned char *button_table, int contents_of_table_num) {
-  for(int i = 0; i < contents_of_table_num; i++) {
-    if((serial_data_byte >> (7 - i)) & 0x01)
-      Gamepad.press(button_table[i]);
-    else
-      Gamepad.release(button_table[i]);
-  }
+  for(int i = 0; i < contents_of_table_num; i++)
+    serial_data_byte >> (7 - i) & 0x01 ? Gamepad.press(button_table[i]) : Gamepad.release(button_table[i]);
 }
 
 void Update() {
 //BUTTONS 
 
-      if(bitRead(inData[1],0)){digitalWrite(led1, HIGH);}
-      else {digitalWrite(led1, LOW);}
-      
-      if(bitRead(inData[1],1)){digitalWrite(led2, HIGH);}
-      else {digitalWrite(led2, LOW);}
-      
-      if(bitRead(inData[1],2)){digitalWrite(led3, HIGH);}
-      else {digitalWrite(led3, LOW);}
-      
-      if(bitRead(inData[1],3)){digitalWrite(led4, HIGH);}
-      else {digitalWrite(led4, LOW);}
+      bitRead(inData[1],0) ? digitalWrite(led1, HIGH) : digitalWrite(led1, LOW);
+      bitRead(inData[1],1) ? digitalWrite(led2, HIGH) : digitalWrite(led2, LOW);
+      bitRead(inData[1],2) ? digitalWrite(led3, HIGH) : digitalWrite(led3, LOW);
+      bitRead(inData[1],3) ? digitalWrite(led4, HIGH) : digitalWrite(led4, LOW);
 
 //SIDES
-    
-      if(bitRead(inData[2],0)){digitalWrite(led_R1, HIGH);}
-      else {digitalWrite(led_R1, LOW);}
-      
-      if(bitRead(inData[2],1)){digitalWrite(led_G1, HIGH);}
-      else {digitalWrite(led_G1, LOW);}
-      
-      if(bitRead(inData[2],2)){digitalWrite(led_B1, HIGH);}
-      else {digitalWrite(led_B1, LOW);}
-      
-      if(bitRead(inData[2],3)){digitalWrite(led_R2, HIGH);}
-      else {digitalWrite(led_R2, LOW);}
-      
-      if(bitRead(inData[2],4)){digitalWrite(led_G2, HIGH);}
-      else {digitalWrite(led_G2, LOW);}
-    
-      if(bitRead(inData[2],5)){digitalWrite(led_B2, HIGH);}
-      else {digitalWrite(led_B2, LOW);}
+      bitRead(inData[2],0) ? digitalWrite(led_R1, HIGH) : digitalWrite(led_R1, LOW);
+      bitRead(inData[2],1) ? digitalWrite(led_G1, HIGH) : digitalWrite(led_G1, LOW);
+      bitRead(inData[2],2) ? digitalWrite(led_B1, HIGH) : digitalWrite(led_B1, LOW);
+      bitRead(inData[2],3) ? digitalWrite(led_R2, HIGH) : digitalWrite(led_R2, LOW);
+      bitRead(inData[2],4) ? digitalWrite(led_G2, HIGH) : digitalWrite(led_G2, LOW);
+      bitRead(inData[2],5) ? digitalWrite(led_B2, HIGH) : digitalWrite(led_B2, LOW);
       
       Clear();
 }
