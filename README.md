@@ -18,24 +18,28 @@ To use TTL - `firmware/firmware_TTL/firmware_TTL.ino`
 
 ## Parts needed to use
 
-`JST XH 2pin socket` (5 pcs) for:
+`JST XH 2pin socket and plug` (5 pcs) for:
   - Start button (desctibed pins from 1 to last, `OUT`, `GND`)
   - Triangle button LED (`+`, `-`)
   - Square button LED (`+`, `-`)
   - Cross button LED (`+`, `-`)
   - Circle button LED (`+`, `-`)
 
-`JST XH 3pin socket` (4 pcs) for:
+`JST XH 3pin socket and plug` (4 pcs) for:
   - Triangle button (`OUT`, `+` , `-`)
   - Square button (`OUT`, `+` , `-`)
   - Cross button (`OUT`, `+` , `-`)
   - Circle button (`OUT`, `+` , `-`)
 
-`JST XH 4pin socket` (4 pcs)
+`JST XH 4pin socket and plug` (4 pcs)
   - Partition RGB Left (`+12v`, `G`, `R`, `B`)
   - Partition RGB Right (`+12v`, `G`, `R`, `B`)
   - TTL (`RX`, `TX`, `GND`, `+5v`. Do not use 4 pin `+5V` if you connect Arduino with USB)
   - 12V IN (`+`, `+`, `-`,`-`. JST XH connection by datasheet has 3A current rating limitation on one pin, if you'll use long stripes with a lot of LEDs, most likely current will be somewhere around or more then 3A, so better to make paralelized connection to board with two 22 AWG or thicker wire for `12V` (`+`) and `GND` (`-`) from the power socket to board. *I'll uploud picture later about that for you to understand*)
+  
+ `Arduino ProMicro` (1 pcs)
+ 
+ `12 pin header` (2 pcs, to have possibility to just plug in Arduino ProMicro and change it if needed without soldering, pin headers will be soldered)
 
 ## About button connection
 
