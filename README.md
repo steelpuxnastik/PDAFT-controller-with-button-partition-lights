@@ -43,6 +43,6 @@ To use TTL - `firmware/firmware_TTL/firmware_TTL.ino`
 
 ## About button connection
 
-By default assumed that you will connect active optical switches ([SHINSANWASWITCH](https://github.com/steelpuxnastik/SHINSANWASWITCH) or OBSA-LHSXF-LN or other) as Triangle, Square, Cross, Circle buttons. If you want to connect passive buttons - use connection only to 1 pin (`OUT`) and 3 pin (`-`) and connect nothing to 2 pin (`+`).
+By default assumed that you will connect active optical switches ([SHINSANWASWITCH](https://github.com/steelpuxnastik/SHINSANWASWITCH) or OBSA-LHSXF-LN or other) as Triangle, Square, Cross, Circle buttons. If you want to connect passive switches - use connection only to 1 pin (`OUT`) and 3 pin (`-`) and connect nothing to 2 pin (`+`).
 
 ## Work in progress
