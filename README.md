@@ -46,6 +46,8 @@ To use TTL - `firmware/firmware_TTL/firmware_TTL.ino`
  `ULN2003` (2 pcs, to use LEDs with it)
  
  `DIP 16 pin socket` (2 pcs, to make possibility to change `ULN2003` without soldering if needed, `DIP 16 pin socket` will be soldered)
+ 
+ `22 AWG wires` (can be found on aliexpress, I recommend to grab more 5 pin 22 AWG white-blue-red-green-black cable, if you use [SHINSANWASWITCH](https://github.com/steelpuxnastik/SHINSANWASWITCH) it will be usefull too)
 
 ## About button connection
 
