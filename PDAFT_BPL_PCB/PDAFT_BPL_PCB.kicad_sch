@@ -1345,7 +1345,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 129.9464 122.2248 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid aef4d4d7-e37f-4507-884d-3c54c0de4ff8)
-    (property "Reference" "RGB2" (id 0) (at 129.7748 124.2574 0)
+    (property "Reference" "Partition_R1" (id 0) (at 129.7748 124.2574 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (id 1) (at 127.4763 124.2569 0)
@@ -1366,7 +1366,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 222.6818 87.6554 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid de228416-166c-4c74-8263-2f3b345625f3)
-    (property "Reference" "RGB1" (id 0) (at 224.7144 87.8268 0)
+    (property "Reference" "Partition_L1" (id 0) (at 224.7144 87.8268 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (id 1) (at 224.7139 90.1255 0)
@@ -1524,14 +1524,14 @@
     (path "/00000000-0000-0000-0000-00005dc6bdb9"
       (reference "Cross1") (unit 1) (value "Cross_Conn_01x03") (footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-00005dc18eee"
-      (reference "ProMicro1") (unit 1) (value "ProMicro") (footprint "promicro:ProMicro")
-    )
     (path "/de228416-166c-4c74-8263-2f3b345625f3"
-      (reference "RGB1") (unit 1) (value "Conn_01x04") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
+      (reference "Partition_L1") (unit 1) (value "Conn_01x04") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
     )
     (path "/aef4d4d7-e37f-4507-884d-3c54c0de4ff8"
-      (reference "RGB2") (unit 1) (value "Conn_01x04") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
+      (reference "Partition_R1") (unit 1) (value "Conn_01x04") (footprint "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005dc18eee"
+      (reference "ProMicro1") (unit 1) (value "ProMicro") (footprint "promicro:ProMicro")
     )
     (path "/00000000-0000-0000-0000-00005dc6de66"
       (reference "SQUARE_LED1") (unit 1) (value "SQUARE_LED_Conn_01x02") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
