@@ -6,7 +6,7 @@
 Hatsune Miku Project DIVA Arcade Future Tone controller with button/partition lights support (works fully like on official arcade machine) controlled by game. Controller realizes work with buttons (TRIANGLE, SQUARE, CROSS, CIRCLE, START) and abitily to connect 4 buttons LED and left/right partition 12V RGB LED strip (without slider, for slider I recomend to use LKP https://github.com/Project-Alpaca/LKP). LED info obtained by UART, special PD-Loader plugin activation needed (coming soon).
 
 ## Repository contains
-Contains PCB (KiCad 5.99+  (5.99.0-11737-gca42f31bb5), release build needs to open) and firmware for Arduino Pro Micro that used in it (use Arduino IDE 1.8 or newer to flash firmware).
+Contains PCB (KiCad 5.99+  (5.99.0-11737-gca42f31bb5), release build or newer needs to open) and firmware for Arduino Pro Micro that used in it (use Arduino IDE 1.8 or newer to flash firmware).
 
 ## Variations
 Board has two possibilities to receive serial data: throught USB (serial) or using TTL (serial1).
