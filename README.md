@@ -6,7 +6,7 @@
 Hatsune Miku Project DIVA Arcade Future Tone controller with button/partition lights support (works fully like on official arcade machine) controlled by game. Controller realizes work with buttons (TRIANGLE, SQUARE, CROSS, CIRCLE, START) and abitily to connect 4 buttons LED and left/right partition 12V RGB LED strip (without slider, for slider I recomend to use LKP https://github.com/Project-Alpaca/LKP). LED info obtained by UART, special PD-Loader plugin activation needed (coming soon).
 
 ## Repository contains
-Contains PCB (KiCad 5.99+  (5.99.0-11737-gca42f31bb5), release build or newer needs to open) and firmware for Arduino Pro Micro that used in it (use Arduino IDE 1.8 or newer to flash firmware).
+Contains [PCB](/PDAFT_BPL_PCB) (KiCad 5.99+  (5.99.0-11737-gca42f31bb5), release build or newer needs to open) and [firmware](/firmware) for Arduino Pro Micro that used in it (use Arduino IDE 1.8 or newer to flash firmware).
 
 ## Variations
 Board has two possibilities to receive serial data: throught USB (serial) or using TTL (serial1).
@@ -17,6 +17,8 @@ To use USB-Serial connection flash `firmware/firmware_USB-Serial/firmware_USB-Se
 To use TTL - `firmware/firmware_TTL/firmware_TTL.ino`
 
 ## Parts needed to use
+
+`PDAFT_BPL_PCB` (1 pcs, order on JLCPCB or somewhere else or make it by yourself)
 
 `JST XH 2pin socket and plug` (5 pcs) for:
   - Start button (desctibed pins from 1 to last, `OUT`, `GND`)
@@ -39,7 +41,11 @@ To use TTL - `firmware/firmware_TTL/firmware_TTL.ino`
   
  `Arduino ProMicro` (1 pcs)
  
- `12 pin header` (2 pcs, to have possibility to just plug in Arduino ProMicro and change it if needed without soldering, pin headers will be soldered)
+ `12 pin header` (2 pcs, to have possibility to just plug in Arduino ProMicro and change it if needed without soldering, `12 pin header` will be soldered)
+ 
+ `ULN2003` (2 pcs, to use LEDs with it)
+ 
+ `DIP 16 pin socket` (2 pcs, to make possibility to change `ULN2003` without soldering if needed, `DIP 16 pin socket` will be soldered)
 
 ## About button connection
 
