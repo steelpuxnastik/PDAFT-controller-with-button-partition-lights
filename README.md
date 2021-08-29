@@ -1,6 +1,6 @@
 # PDAFT controller with button/partition lights
 
-<img src="PDAFT_BPL_PCB/images/1.webp" alt="front" width="40%" height="40%" /> <img src="PDAFT_BPL_PCB/images/2.webp" alt="back" width="40%" height="40%" />
+<img src="PDAFT_BPL_PCB/images/1.webp" alt="front" width="50%" height="50%" />
 
 ## What is it?
 Hatsune Miku Project DIVA Arcade Future Tone controller with button/partition lights support (works fully like on official arcade machine) controlled by game. Controller realizes work with buttons (TRIANGLE, SQUARE, CROSS, CIRCLE, START) and abitily to connect 4 buttons LED and left/right partition 12V RGB LED strip (without slider, for slider I recomend to use LKP https://github.com/Project-Alpaca/LKP). LED info obtained by UART, special PD-Loader plugin activation needed (coming soon).
