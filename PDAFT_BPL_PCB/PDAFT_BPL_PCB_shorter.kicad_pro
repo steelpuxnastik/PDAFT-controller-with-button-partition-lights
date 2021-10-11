@@ -348,7 +348,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PDAFT_BPL_PCB.kicad_pro",
+    "filename": "PDAFT_BPL_PCB_shorter.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -372,7 +372,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": null
   },
